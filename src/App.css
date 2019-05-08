@@ -1,33 +1,77 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card { 
+  position: relative;
+  background-image: url('./eclipse.png');
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.card h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+.card .puce {
+  width: 90px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+.rib {
+  background-color: rgb(210, 240, 156, 0.5);
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-right: 202px !important;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #6f9208;
+  font-size: 27px;
+}
+.my {
+color: #ffffff;
+font-size: 8px;
+text-transform: uppercase;
+}
+.data {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 202px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data p {
+  margin: 0px;
+  font-size: 25px;
 }
+.data p span {
+  font-size: 10px;
+}
+ h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+   text-transform: uppercase;
+   color: #ffffff;
+   font-size: 20px;
+   margin-top: 10px;
+ }
+
+ .master {
+   position: absolute;
+   width: 80px;
+   height: 100px;
+   bottom: 15px;
+   right: 20px;
+ }
